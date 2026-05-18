@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\VARALA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-varalakshmi-Desktop-Surabharathi-Temple\\\\e6eb4d09-8252-4dcc-9aa5-e39bc3683340\\\\tasks\\\\bfrn70mte.output\")",
+      "Bash(findstr \":3000\")",
+      "PowerShell(Get-Process node -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Process -Name node -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\varalakshmi\\\\Desktop\\\\Surabharathi Temple\" -ErrorAction SilentlyContinue | Select-Object Name, @{Name=\"Type\";Expression={if\\($_.PSIsContainer\\){\"DIR\"}else{\"FILE\"}}} | Format-Table -AutoSize)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\varalakshmi\\\\Downloads\\\\yesb-confident\" -ErrorAction SilentlyContinue | Select-Object Name, @{Name=\"Type\";Expression={if\\($_.PSIsContainer\\){\"DIR\"}else{\"FILE\"}}} | Format-Table -AutoSize)",
+      "Bash(npm --version)",
+      "Bash(npm start *)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\VARALA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-varalakshmi-Desktop-Surabharathi-Temple\\\\145744cf-7543-47b8-9302-6838c0a19e54\\\\tasks\\\\br9qdwuf1.output\" -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Name \"node\" -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:5001/api/public/lalitha-sahasranama-count\" -Method Get)",
+      "Bash(Start-Process powershell *)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
